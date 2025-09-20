@@ -145,6 +145,7 @@ margin-bottom: 100px;
     background-color: #fff;
     align-items: center;
     padding: 100px 180px;
+    justify-content: center;
 }
 .action {
     font-size: 24px;
@@ -155,16 +156,23 @@ margin-bottom: 100px;
 .boxing {
     background-color: #3882f6;
     padding: 40px 80px;
+    display: flex;
+    border-radius: 5px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
 }
 .sign-2 {
     background-color: #3882f6;
     color: #efe7eb;
     font-size: 18px;
-    padding: 6px 18px;
+    padding: 4px 24px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 2px solid #e5e7eb;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 .footer {
     background-color: #1f2937;
