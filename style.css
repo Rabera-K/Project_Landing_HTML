@@ -109,30 +109,37 @@ a {
     display: flex;
     align-items: center;
     gap: 25px;
+    justify-content: center;
 }
+
 p {
     text-align: center;
     max-width: 150px;
 }
+
 .container-2 {
     display: flex;
-flex-direction: column;
-padding: 0 180px;
-align-items: center;
-margin-bottom: 100px;
+    flex-direction: column;
+    padding: 0 180px;
+    align-items: center;
+    margin-bottom: 100px;
+    max-width: 1400px;
 }
+
 .quote {
     max-width: 850px;
     font-size: 36px;
     font-weight: 300;
     color: #1f2937
 }
+
 .author {
     font-size: 18px;
     color: #1f2937;
     font-weight: bold;
-   padding-left: 600px;
+    align-self: flex-end;
 }
+
 .container-3 {
     display: flex;
     background-color: #e5e7eb;
@@ -140,19 +147,23 @@ margin-bottom: 100px;
     align-items: center;
     padding: 100px 180px;
 }
+
 .container-4 {
     display: flex;
     background-color: #fff;
     align-items: center;
     padding: 100px 180px;
     justify-content: center;
+    max-width: 1400px;
 }
+
 .action {
     font-size: 24px;
     color: #e5e7eb;
     font-weight: bold;
 
 }
+
 .boxing {
     background-color: #3882f6;
     padding: 40px 80px;
@@ -162,6 +173,7 @@ margin-bottom: 100px;
     justify-content: space-between;
     align-items: center;
 }
+
 .sign-2 {
     background-color: #3882f6;
     color: #efe7eb;
@@ -174,6 +186,7 @@ margin-bottom: 100px;
     border-radius: 8px;
     flex-shrink: 0;
 }
+
 .footer {
     background-color: #1f2937;
     display: flex;
@@ -181,4 +194,17 @@ margin-bottom: 100px;
     align-items: center;
     padding: 10px 180px;
     color: #e5e7eb;
+}
+
+.sign:hover {
+    background-color: #a0b9ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sign-2:hover {
+    background-color: #a0b9ff;
+    border-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
