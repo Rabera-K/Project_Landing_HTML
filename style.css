@@ -26,11 +26,16 @@ ul {
     font-size: 24px;
     color: #f9faf8;
 }
+.hero {
+     max-width: 400px;
+
+}
 
 .main {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    line-height: 1.2;
 }
 
 .secondary {
@@ -49,7 +54,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 180px;
 }
 .placeholder {
     background-color: #efe7eb70;
@@ -62,5 +67,9 @@ a {
 }
 .container-1 {
     background-color: #1f2937;
+    display: flex;
+    padding: 20px 180px;
+    justify-content: space-between;
+
 
 }
