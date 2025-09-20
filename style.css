@@ -28,7 +28,6 @@ ul {
 }
 .hero {
      max-width: 400px;
-
 }
 
 .main {
@@ -36,11 +35,13 @@ ul {
     font-size: 48px;
     font-weight: 900;
     line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 .secondary {
     font-size: 18px;
     color: #efe7eb;
+    margin-bottom: 10px;
 }
 
 a {
@@ -54,22 +55,32 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 180px;
+    padding: 10px 180px;
 }
 .placeholder {
     background-color: #efe7eb70;
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 500px;
     color: #efe7eb;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.sign {
+    background-color: #3882f6;
+    color: #efe7eb;
+    font-size: 18px;
+    padding: 6px 18px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+
+}
 .container-1 {
     background-color: #1f2937;
     display: flex;
-    padding: 20px 180px;
+    padding: 100px 180px;
     justify-content: space-between;
-
-
+    align-items: center;
 }
