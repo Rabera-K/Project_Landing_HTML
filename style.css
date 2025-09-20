@@ -13,8 +13,17 @@ ul {
 .header {
     font-size: 24px;
     color: #f9faf8;
-
 }
+.main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.secondary {
+    font-size: 18px;
+    color: #efe7eb;
+}
+
 .navigation,
 .container-1 {
     background-color: #1f2937;
